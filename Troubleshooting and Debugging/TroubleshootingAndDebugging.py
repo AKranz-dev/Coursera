@@ -86,3 +86,17 @@
 # Checking the right side
 # -1
 # """
+
+
+##Using the futures module to assign functions to threads.
+# from concurrent import futures
+
+# executor = futures.ThreadPoolExecutor() #Defines an executor - this will distribute work among different workers
+
+# executor.submit(myFunction) #Submits a funtion to the executor - all functions submitted will be distributed among different workers and ran in parallel.
+
+# print("Waiting for all threads to finish")
+# executor.shutdown() #Shuts down the executor. The executor only shuts down when ALL threads have finished running through their assigned functions.
+
+
+# executor = futures.ProcessPoolExecutor() #Here we say we want to use processes instead of threads for the parallel operations. 
