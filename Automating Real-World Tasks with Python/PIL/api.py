@@ -19,6 +19,10 @@ import os
 
 
 
+#imagesDirectory = r"/home/student-01-edd040f54a27/images"
+#newDirectory = r"/opt/icons"
+
+
 imagesDirectory = r"G:\DevOps\Python\Projects\Coursera\Automating Real-World Tasks with Python\PIL\images"
 newDirectory = r"G:\DevOps\Python\Projects\Coursera\Automating Real-World Tasks with Python\PIL\NewImages"
 
