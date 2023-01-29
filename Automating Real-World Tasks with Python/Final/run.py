@@ -21,4 +21,3 @@ for item in os.listdir(targetPath):
         i+=1
 
     response = requests.post("http://34.71.44.146/fruits/", data=dataDict)
-    

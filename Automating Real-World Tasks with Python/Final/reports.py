@@ -14,7 +14,6 @@ def generate_report(attachment, title, paragraph):
     
     report.build([report_title, empty_line, report_para])
 
-    
 #Attachment is the name/location of the file
 #Title is the title
 #paragraph is the all the text for the body
